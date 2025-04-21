@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard del alumno"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="#333" />
+    <!-- Datos del alumno -->
+    <TextView
+        android:id="@+id/txtNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre completo: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtCodigoAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código de alumno: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de nacimiento: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000" />
+
+    <!-- Secciones inscritas -->
+    <TextView
+        android:text="Sección inscrita:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtSecciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:textColor="#000000" />
+
+    <!-- BOTONES en línea horizontal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnAsistencia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registrar asistencia"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#3F51B5"
+            />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cerrar sesión"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#8B2A2B"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

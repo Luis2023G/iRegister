@@ -13,6 +13,7 @@ constraintlayout = "2.2.1"
 picasso = "2.71828"
 retrofit = "2.9.0"
 zxingAndroidEmbedded = "4.3.0"
+firebaseAppdistributionGradle = "5.1.1"
 
 [libraries]
 compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
@@ -30,6 +31,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+firebase-appdistribution-gradle = { group = "com.google.firebase", name = "firebase-appdistribution-gradle", version.ref = "firebaseAppdistributionGradle" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -31,6 +31,8 @@
         <!-- Main activity -->
         <activity android:name=".MainActivity" android:exported="true" />
 
+        <!-- Welcome activity -->
+        <activity android:name=".WelcomeActivity" android:exported="true" />
         <!-- Login activity (pantalla inicial) -->
         <activity android:name=".LoginActivity" android:exported="true">
             <intent-filter>
